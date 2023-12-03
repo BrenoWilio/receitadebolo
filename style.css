@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.top-bar{
+    height:50px;
+    background-color: #ff6b28;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position:sticky;
+    top:0px;
+}
+
+
+
+
+.banner{
+    height:200px;
+    background-image: url("./images/hero_bolo.jpg");
+    background-repeat: no-repeat;
+    background-position-y:20%;
+    /* background-position-x: center; */
+    background-size:cover;
+}
+
+.conteiner{
+    max-width:800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+h1{
+    color: #ff6b28;
+}
+
+h2{
+    color: #ff6b28;
+}
+
+.ingredientes, .modoPreparo, .instrucoes{
+    /* margin: 100px 0; */
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.ingredientes:hover{
+    box-shadow: 3px 3px 20px rgb(128, 113, 113);
+    border-radius: 15px;
+}
+
+.modoPreparo:hover{
+    box-shadow: 3px 3px 20px rgb(128, 113, 113);
+    border-radius: 15px;
+}
+.instrucoes:hover{
+    box-shadow: 3px 3px 20px rgb(128, 113, 113);
+    border-radius: 15px;
+}
+
+.ingredientes{
+    cursor: url('./images/cursor_ingredientes.png'), pointer;
+}
+
+.modoPreparo{
+    cursor: url('./images/cursor_preparo.png'), pointer;
+}
+
+.instrucoes{
+    cursor: url('./images/cursor_intrucoes.png'), pointer;
+}
+
+
+li{
+    line-height: 30px;
+}
+
+.botcomprar{
+    background-color:#ff6b28;
+    width: 200px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.footer{
+    height:80px;
+    background-color: #ff6b28;
+}
+
+.txtfooter{
+    max-width: 500px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.whats{
+    width: 50px;
+    height: 50px;
+    /* background-image: url("./whatsapp-logo-png.png");
+    background-size: cover;
+    background-position: center; */
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.img-whats:hover{
+    width: 80px;
+}
